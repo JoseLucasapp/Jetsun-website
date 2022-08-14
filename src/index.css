@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: font-rounded-bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --main-blue: #244C66;
+  --main-green: #407D6C;
+  --second-blue: #587B89;
+  --third-blue: #8BA1AD;
+  --second-green: #7DB290;
+  --main-grey: #B5C7CC;
+}
+
+@font-face {
+  font-family: font-rounded-bold;
+  src: url(../public/font-bold.ttf);
 }
